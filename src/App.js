@@ -1,9 +1,10 @@
 import './App.css'
+import SchoolLabel from './components/SchoolLabel/index.js'
 
 function App() {
   return (
     <div className='App'>
-      <h1>Hola benvinguts a Escola pia santa anna</h1>
+      <SchoolLabel />
     </div>
   )
 }
