@@ -1,4 +1,4 @@
-export default function SchoolLabel( { schoolName = 'Salesians', sch}) {
+export default function SchoolLabel( { schoolName = 'Salesians', schoolDirection}) {
 
 
     return (
