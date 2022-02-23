@@ -1,11 +1,13 @@
-export default function SchoolLabel( { schoolName = 'Salesians', schoolDirection}) {
+export default function SchoolLabel
+( { schoolName = 'Salesians', schoolDirection = 'C migdia'}) {
 
 
     return (
 
         <div>
-        <h1> Santa anna </h1>
-        <p> Carrer Santa anna </p>
+        <button>Click me!</button>
+        <h1> {schoolName} </h1>
+        <p> {schoolDirection} </p>
         </div>
 
     )
