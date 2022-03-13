@@ -2,6 +2,7 @@ export default function SchoolLabel
 ( { schoolName = 'Salesians', schoolDirection = 'C migdia'}) {
 
     const [backgroundColor, setBackgroundColor ] = useState 
+    
 
     return (
 
